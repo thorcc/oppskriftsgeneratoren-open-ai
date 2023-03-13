@@ -1,7 +1,7 @@
 // import * as dotenv from 'dotenv'
 // dotenv.config()
 
-const API_KEY = import.meta.env.API_KEY
+const API_KEY = import.meta.env.VITE_API_KEY
 
 export const chatCompletion = async (prompt: String) => {
     const response = await fetch(
