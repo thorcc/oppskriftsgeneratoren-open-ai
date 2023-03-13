@@ -41,7 +41,7 @@
 </script>
 
 <header>
-    <h1>Thor og Martins oppskriftgenerator</h1>
+    <h1>Thor og Martins oppskriftsgenerator</h1>
 </header>
 
 <main>
