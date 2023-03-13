@@ -76,7 +76,7 @@
             <h2>Advarsel: Denne generatoren bruker kunstig intelligens.</h2>
             <p>
                 Oppskriftene som generes er generatorens egne. Thor og Martin
-                tar personlig avstand fra alle oppskrifter generatoren
+                tar avstand fra alle oppskrifter generatoren
                 genererer.
             </p>
         </div>
