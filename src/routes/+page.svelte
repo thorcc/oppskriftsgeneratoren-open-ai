@@ -15,14 +15,23 @@
                 input +
                 ", og gi meg oppskriften i HTML-kode"
         );
-        recepie = data.choices[0].message.content;
-        console.log(recepie);
+        console.log(data)
+        if (data.error) {
+            recepie = data.error.message;
+        } else {
+            recepie = data.choices[0].message.content;
+        }
     };
 
     const generateImage = async () => {
         imageUrl = "generating";
         const data = await imageGeneration("En matrett bestående av " + input);
-        imageUrl = data["data"][0]["url"];
+        console.log(data)
+        if (data.error){
+            imageUrl = ""
+        } else {
+            imageUrl = data["data"][0]["url"];
+        }
     };
 
     const startLoadingDots = () => {
